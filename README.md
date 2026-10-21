@@ -1,18 +1,23 @@
-# Café Central App
+# Café Central - Sistema de pedidos
 
-Aplicación web para que los clientes de Café Central puedan consultar el menú, revisar precios, seleccionar productos y preparar un pedido de manera sencilla.
+Aplicación web para que los clientes de Café Central puedan consultar el menú y realizar pedidos desde un dispositivo móvil o una computadora.
+
+## Descripción
+
+El proyecto organiza en una aplicación el menú, los clientes y los pedidos de Café Central para facilitar la atención y el seguimiento de cada solicitud.
 
 ## Problema que resuelve
 
-Actualmente, los clientes necesitan preguntar por los productos disponibles y sus precios antes de ordenar. La aplicación reúne esa información en un solo lugar y permite organizar el pedido antes de enviarlo, reduciendo errores y tiempo de espera.
+Actualmente, los clientes necesitan preguntar por los productos disponibles y sus precios antes de ordenar. La aplicación reúne esa información en un solo lugar, permite registrar el pedido y consultar su estado, reduciendo errores y tiempo de espera.
 
 ## Funcionalidades principales
 
-- Consultar el menú de Café Central.
-- Ver el nombre y el precio de cada producto.
-- Agregar productos al pedido.
-- Revisar el resumen y el total del pedido.
-- Vaciar el pedido para comenzar de nuevo.
+- Consulta del menú.
+- Visualización de precios.
+- Registro de clientes.
+- Selección de productos.
+- Creación de pedidos.
+- Consulta del estado del pedido.
 
 ## Integrantes del equipo
 
@@ -20,11 +25,11 @@ Actualmente, los clientes necesitan preguntar por los productos disponibles y su
 - José Luis
 - Erick Jacinto Soriano
 
-## Tecnologías utilizadas
+## Tecnologías que podrían utilizarse
 
 - HTML5 para la estructura de la página.
 - CSS3 para el diseño visual.
-- JavaScript para la interacción y el cálculo del pedido.
+- JavaScript para la interacción y la gestión de los pedidos.
 
 ## Estado del proyecto
 
