@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Central</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="encabezado">
+        <p class="marca">Café Central</p>
+        <h1>Menú y pedidos</h1>
+        <p>Selecciona tus productos y revisa el total antes de ordenar.</p>
+    </header>
+    <main class="contenido">
+        <section aria-labelledby="titulo-menu">
+            <h2 id="titulo-menu">Nuestro menú</h2>
+            <div id="menu" class="menu"></div>
+        </section>
+        <aside class="pedido" aria-labelledby="titulo-pedido">
+            <h2 id="titulo-pedido">Tu pedido</h2>
+            <ul id="lista-pedido"></ul>
+            <p class="total">Total: $<span id="total">0</span></p>
+            <button id="vaciar" type="button">Vaciar pedido</button>
+        </aside>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
